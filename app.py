@@ -37,7 +37,7 @@ if "agent_chain" not in st.session_state:
     st.session_state.agent_chain = create_agent_chain()
 
 
-st.title("langchain-streamlit-app")
+st.title("seiya-o-langchain-streamlit-app")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
